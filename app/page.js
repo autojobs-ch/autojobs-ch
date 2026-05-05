@@ -35,18 +35,51 @@ export default function Home() {
           <div style={{width:'1px', background:'#eee'}}></div>
           <select style={{flex:1, border:'none', outline:'none', fontSize:'14px', padding:'6px 10px', background:'transparent', color:'#666'}}>
             <option>Alle Kantone</option>
-            <option>Zürich</option>
+            <option>Aargau</option>
+            <option>Appenzell Ausserrhoden</option>
+            <option>Appenzell Innerrhoden</option>
+            <option>Basel-Landschaft</option>
+            <option>Basel-Stadt</option>
             <option>Bern</option>
-            <option>Basel</option>
+            <option>Freiburg</option>
+            <option>Genf</option>
+            <option>Glarus</option>
+            <option>Graubünden</option>
+            <option>Jura</option>
             <option>Luzern</option>
+            <option>Nidwalden</option>
+            <option>Obwalden</option>
+            <option>Schaffhausen</option>
+            <option>Schwyz</option>
+            <option>Solothurn</option>
+            <option>St. Gallen</option>
+            <option>Tessin</option>
+            <option>Thurgau</option>
+            <option>Uri</option>
+            <option>Waadt</option>
+            <option>Wallis</option>
+            <option>Zug</option>
+            <option>Zürich</option>
           </select>
           <div style={{width:'1px', background:'#eee'}}></div>
           <select style={{flex:1, border:'none', outline:'none', fontSize:'14px', padding:'6px 10px', background:'transparent', color:'#666'}}>
             <option>Alle Kategorien</option>
-            <option>Mechanik</option>
-            <option>Fahrzeugverkauf</option>
-            <option>Karosserie & Lack</option>
-            <option>E-Mobility</option>
+            <option>Automechaniker/-in</option>
+            <option>Automobil-Mechatroniker/-in</option>
+            <option>Automobildiagnostiker/-in</option>
+            <option>Autolackierer/-in</option>
+            <option>Carrosseriespengler/-in</option>
+            <option>Serviceberater/-in</option>
+            <option>Autoverkäufer/-in</option>
+            <option>Reifenpraktiker/-in</option>
+            <option>Elektriker / E-Mobility</option>
+            <option>Chauffeur / Transport</option>
+            <option>Disponent/-in</option>
+            <option>Büro & Verwaltung</option>
+            <option>Führungspositionen</option>
+            <option>Lehrstelle / Praktikum</option>
+            <option>Werkstatt & Hilfskräfte</option>
+            <option>Sonstige</option>
           </select>
           <button style={{background:'#D85A30', color:'#fff', border:'none', borderRadius:'8px', padding:'8px 20px', fontSize:'14px', fontWeight:'500', cursor:'pointer'}}>
             Suchen
@@ -59,12 +92,12 @@ export default function Home() {
         <h2 style={{fontSize:'18px', fontWeight:'700', marginBottom:'1rem'}}>Berufsfelder</h2>
         <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:'10px'}}>
           {[
-            {icon:'🔧', name:'Mechanik', count:'142 Jobs'},
-            {icon:'🚗', name:'Fahrzeugverkauf', count:'87 Jobs'},
-            {icon:'🎨', name:'Karosserie & Lack', count:'63 Jobs'},
-            {icon:'⚡', name:'Elektrik / E-Mobility', count:'51 Jobs'},
-            {icon:'📋', name:'Serviceberatung', count:'44 Jobs'},
-            {icon:'🏢', name:'Administration', count:'29 Jobs'},
+            {icon:'🔧', name:'Automechaniker/-in', count:'0 Jobs'},
+            {icon:'⚙️', name:'Automobil-Mechatroniker/-in', count:'0 Jobs'},
+            {icon:'🔍', name:'Automobildiagnostiker/-in', count:'0 Jobs'},
+            {icon:'🎨', name:'Autolackierer/-in', count:'0 Jobs'},
+            {icon:'🛠️', name:'Carrosseriespengler/-in', count:'0 Jobs'},
+            {icon:'📋', name:'Serviceberater/-in', count:'0 Jobs'},
           ].map((cat) => (
             <div key={cat.name} style={{background:'#fff', border:'1px solid #eee', borderRadius:'12px', padding:'1rem', textAlign:'center', cursor:'pointer'}}>
               <div style={{fontSize:'24px', marginBottom:'6px'}}>{cat.icon}</div>

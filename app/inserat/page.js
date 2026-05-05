@@ -128,13 +128,23 @@ export default function Inserat() {
             <div>
               <label style={labelStyle}>Berufsfeld *</label>
               <select style={inputStyle} value={form.category} onChange={e => update('category', e.target.value)}>
-                <option value="">Kategorie waehlen</option>
-                <option>Mechanik</option>
-                <option>Fahrzeugverkauf</option>
-                <option>Karosserie und Lack</option>
-                <option>Elektrik / E-Mobility</option>
-                <option>Serviceberatung</option>
-                <option>Administration</option>
+                <option value="">Kategorie wählen</option>
+                <option>Automechaniker/-in</option>
+                <option>Automobil-Mechatroniker/-in</option>
+                <option>Automobildiagnostiker/-in</option>
+                <option>Autolackierer/-in</option>
+                <option>Carrosseriespengler/-in</option>
+                <option>Serviceberater/-in</option>
+                <option>Autoverkäufer/-in</option>
+                <option>Reifenpraktiker/-in</option>
+                <option>Elektriker / E-Mobility</option>
+                <option>Chauffeur / Transport</option>
+                <option>Disponent/-in</option>
+                <option>Büro & Verwaltung</option>
+                <option>Führungspositionen</option>
+                <option>Lehrstelle / Praktikum</option>
+                <option>Werkstatt & Hilfskräfte</option>
+                <option>Sonstige</option>
               </select>
             </div>
             <div>

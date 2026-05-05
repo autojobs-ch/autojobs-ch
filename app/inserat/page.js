@@ -113,13 +113,31 @@ export default function Inserat() {
               <label style={labelStyle}>Kanton *</label>
               <select style={inputStyle} value={form.canton} onChange={e => update('canton', e.target.value)}>
                 <option value="">Kanton waehlen</option>
-                <option>Zuerich</option>
-                <option>Bern</option>
-                <option>Basel</option>
-                <option>Luzern</option>
                 <option>Aargau</option>
-                <option>St. Gallen</option>
+                <option>Appenzell Ausserrhoden</option>
+                <option>Appenzell Innerrhoden</option>
+                <option>Basel-Landschaft</option>
+                <option>Basel-Stadt</option>
+                <option>Bern</option>
+                <option>Freiburg</option>
                 <option>Genf</option>
+                <option>Glarus</option>
+                <option>Graubünden</option>
+                <option>Jura</option>
+                <option>Luzern</option>
+                <option>Nidwalden</option>
+                <option>Obwalden</option>
+                <option>Schaffhausen</option>
+                <option>Schwyz</option>
+                <option>Solothurn</option>
+                <option>St. Gallen</option>
+                <option>Tessin</option>
+                <option>Thurgau</option>
+                <option>Uri</option>
+                <option>Waadt</option>
+                <option>Wallis</option>
+                <option>Zug</option>
+                <option>Zürich</option>
               </select>
             </div>
           </div>

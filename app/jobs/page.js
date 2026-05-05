@@ -56,12 +56,31 @@ export default function Jobs() {
           style={{flex:1, border:'none', outline:'none', fontSize:'14px', padding:'6px 10px', background:'transparent', color:'#666'}}
         >
           <option value="">Alle Kantone</option>
-          <option>Zürich</option>
-          <option>Bern</option>
-          <option>Basel</option>
-          <option>Luzern</option>
           <option>Aargau</option>
+          <option>Appenzell Ausserrhoden</option>
+          <option>Appenzell Innerrhoden</option>
+          <option>Basel-Landschaft</option>
+          <option>Basel-Stadt</option>
+          <option>Bern</option>
+          <option>Freiburg</option>
+          <option>Genf</option>
+          <option>Glarus</option>
+          <option>Graubünden</option>
+          <option>Jura</option>
+          <option>Luzern</option>
+          <option>Nidwalden</option>
+          <option>Obwalden</option>
+          <option>Schaffhausen</option>
+          <option>Schwyz</option>
+          <option>Solothurn</option>
           <option>St. Gallen</option>
+          <option>Tessin</option>
+          <option>Thurgau</option>
+          <option>Uri</option>
+          <option>Waadt</option>
+          <option>Wallis</option>
+          <option>Zug</option>
+          <option>Zürich</option>
         </select>
         <div style={{width:'1px', background:'#eee'}}></div>
         <select
@@ -70,12 +89,22 @@ export default function Jobs() {
           style={{flex:1, border:'none', outline:'none', fontSize:'14px', padding:'6px 10px', background:'transparent', color:'#666'}}
         >
           <option value="">Alle Kategorien</option>
-          <option>Mechanik</option>
-          <option>Fahrzeugverkauf</option>
-          <option>Karosserie & Lack</option>
-          <option>Elektrik / E-Mobility</option>
-          <option>Serviceberatung</option>
-          <option>Administration</option>
+            <option>Automechaniker/-in</option>
+            <option>Automobil-Mechatroniker/-in</option>
+            <option>Automobildiagnostiker/-in</option>
+            <option>Autolackierer/-in</option>
+            <option>Carrosseriespengler/-in</option>
+            <option>Serviceberater/-in</option>
+            <option>Autoverkäufer/-in</option>
+            <option>Reifenpraktiker/-in</option>
+            <option>Elektriker / E-Mobility</option>
+            <option>Chauffeur / Transport</option>
+            <option>Disponent/-in</option>
+            <option>Büro & Verwaltung</option>
+            <option>Führungspositionen</option>
+            <option>Lehrstelle / Praktikum</option>
+            <option>Werkstatt & Hilfskräfte</option>
+            <option>Sonstige</option>
         </select>
         <button
           onClick={fetchJobs}
